@@ -1,0 +1,37 @@
+{
+  "displayName": "Timer Up",
+  "defaultWidth": 160,
+  "defaultHeight": 24,
+  "components": "./index.js",
+  "icon": "./example-thumbnail.png",
+  "props": [
+    {
+      "name": "text",
+      "displayName": "Text",
+      "type": "text",
+      "default": "",
+      "styles": {
+        "fontFamily": "@body",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "textAlignment": "left",
+        "color": "@text"
+      }
+    },
+    {
+      "name":"action",
+      "displayName": "Action",
+      "type": "action",
+      "arguments":[
+        {
+          "displayName":"Time in Seconds",
+          "type":"number"
+        },
+        {
+          "displayName":"Time in Minutes",
+          "type":"number"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "author": "Jimmy Noujaim",
+  "description": "timer up component with action",
+  "logo": "./example-logo.png",
+  "displayName": "Timer up",
+  "components": [
+    {
+      "name": "TimerUp",
+      "manifest": "./src/components/TimerUp/manifest.json"
+    }
+  ]
+}
